@@ -13,10 +13,15 @@ ul {
   list-style: none;
 }
 
-a {
+#link_log {
   text-decoration: none;
   color: #4c7350;
   font-weight: 600;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
 }
 
 li {
@@ -35,7 +40,11 @@ label {
 }
 
 input {
+  font-size: 1.25em;
+  font-weight: 100;
   margin-bottom: 5px;
+  border-radius: 3px;
+  border: 1px solid grey;
 }
 
 .main_container {
@@ -57,7 +66,11 @@ input {
 .form_inputs {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: baseline;
+}
+
+h2 {
+  margin-left: 60px;
 }
 
 .background_black {
@@ -84,6 +97,7 @@ input {
 }
 
 .odin_text {
+  font-family: "Courier New", Courier, monospace;
   font-size: 6em;
   color: #fff;
 }
@@ -94,6 +108,11 @@ h1,
   color: rgb(46, 43, 43);
 }
 
+.intro {
+  margin-left: 60px;
+  font-size: 1.5em;
+}
+
 input.error {
   border: 1px solid #f00;
 }
@@ -101,7 +120,7 @@ input.error {
 input:focus {
   outline: none !important;
   border-color: #719ece;
-  box-shadow: 0 0 3px #719ece;
+  box-shadow: 0 0 5px #719ece;
 }
 
 .button_container {
