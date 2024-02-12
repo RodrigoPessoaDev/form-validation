@@ -28,7 +28,12 @@
               <ul>
                 <li>
                   <label for="first_name">FIRST NAME</label>
-                  <input type="text" id="first_name" name="first_name" />
+                  <input
+                    type="text"
+                    id="first_name"
+                    name="first_name"
+                    selected
+                  />
                 </li>
                 <li>
                   <label for="user_email">EMAIL</label>
@@ -37,6 +42,7 @@
                 <li>
                   <label for="user_password">PASSWORD</label>
                   <input
+                    class="error"
                     type="password"
                     id="user_password"
                     name="user_password"
@@ -59,6 +65,7 @@
                 <li>
                   <label for="password_check">CONFIRM PASSWORD</label>
                   <input
+                    class="error"
                     type="password"
                     id="password_check"
                     name="password_check"
