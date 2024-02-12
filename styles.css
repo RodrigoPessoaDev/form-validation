@@ -1,0 +1,21 @@
+body {
+  font-size: 62.5%;
+}
+
+img {
+  width: auto;
+  height: 100vh;
+}
+
+ul {
+  list-style: none;
+}
+
+.main_container {
+  display: flex;
+}
+
+input,
+label {
+  display: block;
+}
